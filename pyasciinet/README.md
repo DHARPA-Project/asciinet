@@ -1,6 +1,8 @@
 asciinet
 ========
 
+*NOTE*: this is a fork of the original asciinet libary which seems to be abandoned. This fork is mainly intended to build artifacts to upload to pypi and conda.
+
 asciinet is a wrapper over the [ascii-graphs](https://github.com/cosminbasca/ascii-graphs) library for printing [networkx](https://networkx.github.io/) graphs as ASCII.
 
 Important Notes
