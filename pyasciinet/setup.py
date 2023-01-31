@@ -27,7 +27,7 @@ except ImportError:
 
 NAME = 'asciinet'
 
-str_version = None
+str_version = "0.3.1"
 print('{0}/__version__.py'.format(NAME))
 exec(open('{0}/__version__.py'.format(NAME)).read())
 #execfile('{0}/__version__.py'.format(NAME))
@@ -61,7 +61,6 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Java',
-        'Programming Language :: Scala',
         'Topic :: Software Development'
     ],
     packages=[NAME, '{0}/test'.format(NAME)],
