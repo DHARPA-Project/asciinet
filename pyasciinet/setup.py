@@ -50,7 +50,7 @@ setup(
     name=NAME,
     version=str_version,
     author='Cosmin Basca',
-    author_email='cosmin.basca@gmail.com; basca@ifi.uzh.ch',
+    author_email='cosmin.basca@gmail.com',
     # url=None,
     description='A wrapper around the scala ascii-graphs library',
     long_description=DESCRIPTION,
